@@ -1,7 +1,7 @@
 [project]
 name = "yetanotherfilestorage"
 version = "0.1.0"
-description = "YAFS - You think this one's different? SQLAlchemy & FastAPI & Flet. Nothing new, actually. But... maybe it IS different, dude? Check it out and tell me :D"
+description = "YAFS - You think this one's different? SQLAlchemy with PostgreSQL & FastAPI & Flet. Nothing new, actually. But... maybe it IS different, dude? Check it out and tell me :D"
 authors = [
     {name = "Silletr",email = "silletr@duck.com"}
 ]
@@ -11,8 +11,9 @@ requires-python = ">=3.14"
 dependencies = [
     "sqlalchemy (>=2.1.8,<3.0.0)",
     "flet (>=1.1.2,<2.0.0)",
-    "fastapi (>=0.163.1,<0.164.0)",
-    "psycopg[binary] (>=3.3.9,<4.0.0)"
+    "fastapi (>=0.163.1,<1.0.0)",
+    "psycopg[binary] (>=3.3.9,<4.0.0)",
+    "loguru (>=0.8.0,<0.9.0)"
 ]
 
 
